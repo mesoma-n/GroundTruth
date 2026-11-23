@@ -1,0 +1,102 @@
+[
+  {
+    "id": "case-001",
+    "model": "baseline",
+    "expected": {
+      "visit_date": "2026-03-05",
+      "patient_name": "Jordan Lee",
+      "letter_type": "referral",
+      "conditions": [
+        "hypertension"
+      ]
+    },
+    "predicted": {
+      "visit_date": "2026-05-03",
+      "patient_name": "Jordan Lee",
+      "letter_type": "referral",
+      "conditions": [
+        "hypertension"
+      ]
+    },
+    "latency_ms": 1800,
+    "generated_text": "Referral for Jordan Lee",
+    "forbidden_terms": [
+      "guaranteed cure"
+    ]
+  },
+  {
+    "id": "case-001",
+    "model": "candidate",
+    "expected": {
+      "visit_date": "2026-03-05",
+      "patient_name": "Jordan Lee",
+      "letter_type": "referral",
+      "conditions": [
+        "hypertension"
+      ]
+    },
+    "predicted": {
+      "visit_date": "March 5, 2026",
+      "patient_name": "Jordan Lee",
+      "letter_type": "referral",
+      "conditions": [
+        "hypertension"
+      ]
+    },
+    "latency_ms": 1900,
+    "generated_text": "Referral for Jordan Lee",
+    "forbidden_terms": [
+      "guaranteed cure"
+    ]
+  },
+  {
+    "id": "case-002",
+    "model": "baseline",
+    "expected": {
+      "visit_date": "2026-04-12",
+      "patient_name": "Taylor Reed",
+      "letter_type": "follow-up",
+      "conditions": [
+        "asthma"
+      ]
+    },
+    "predicted": {
+      "visit_date": "2026-12-04",
+      "patient_name": "Taylor Reed",
+      "letter_type": "follow-up",
+      "conditions": [
+        "asthma"
+      ]
+    },
+    "latency_ms": 1700,
+    "generated_text": "Follow-up for Taylor Reed",
+    "forbidden_terms": [
+      "guaranteed cure"
+    ]
+  },
+  {
+    "id": "case-002",
+    "model": "candidate",
+    "expected": {
+      "visit_date": "2026-04-12",
+      "patient_name": "Taylor Reed",
+      "letter_type": "follow-up",
+      "conditions": [
+        "asthma"
+      ]
+    },
+    "predicted": {
+      "visit_date": "04/12/2026",
+      "patient_name": "Taylor Reed",
+      "letter_type": "follow-up",
+      "conditions": [
+        "asthma"
+      ]
+    },
+    "latency_ms": 2100,
+    "generated_text": "Follow-up for Taylor Reed",
+    "forbidden_terms": [
+      "guaranteed cure"
+    ]
+  }
+]
